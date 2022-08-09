@@ -107,17 +107,17 @@ const Header = ({
                     </svg>
                 </a>
                 </div>
-                <div >
+                <div style={{display: 'flex', alignTtems: 'center'}}>
                     <GenderIcon setModal={setGenderOpen} />
-                </div>
-                <button
-                    onClick={() => setWalletOpen(prev => !prev)}
+                    <button
+                        onClick={() => setWalletOpen(prev => !prev)}
 
-                    className="header__wallet btn btn--transparent"
-                    data-modal="wallet"
-                >
-                    Connect wallet
-                </button>
+                        className="header__wallet btn btn--transparent"
+                        data-modal="wallet"
+                    >
+                        Connect wallet
+                    </button>
+                </div>
             </div>
             </div>
         </div>
