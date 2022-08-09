@@ -22,12 +22,14 @@ const Modal = ({
                 document.body.classList.add('scroll-lock');
                 if(window.innerWidth > 700) {
                     document.body.style.paddingRight = `${scrollbarWidth}px`;
-                    setPaddingRight(scrollbarWidth)
+                    document.querySelector('.header').style.paddingRight = `${scrollbarWidth}px`;
+                    setPaddingRight(scrollbarWidth);
                 }
             } else {
                 document.body.classList.remove('scroll-lock');
                 document.body.style.paddingRight = '0px';
-                setPaddingRight(0)
+                document.querySelector('.header').style.paddingRight = '0px';
+                setPaddingRight(0);
             }
         }, 300)
     }, [open])

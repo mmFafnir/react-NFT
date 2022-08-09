@@ -55,7 +55,7 @@ const ModalWallet = ({
             await activate(connector)
 
             setWalletConnect(prev => !prev)
-            
+            setOpen(false)
         } catch (e) {
             console.log(e)
         }

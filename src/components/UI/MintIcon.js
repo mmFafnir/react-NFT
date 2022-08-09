@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { checkStartSale } from '../../scripts/checkStartSale';
 
 
@@ -36,4 +36,4 @@ const MintIcon = ({
     );
 };
 
-export default MintIcon;
+export default memo(MintIcon);

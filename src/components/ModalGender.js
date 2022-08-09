@@ -20,7 +20,6 @@ const ModalGender = ({
 
     //отправка новых измененных токенов 
     const sendTokens = async (res) => {
-        if(res.length === 0) return;
         try {
             if(res.length === 1) {
                 const token = res[0]; //токен

@@ -1,4 +1,4 @@
-import {useCallback, useEffect, useMemo, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {Web3ReactProvider} from '@web3-react/core'
 import {ethers} from 'ethers'
 
@@ -72,7 +72,6 @@ function App() {
     const connectWalletHandler = async () => {
         const isConnect = await checkWalletConnect();
         if(isConnect) {
-            console.log(checkWalletConnect())
             setWalletConnect(true)
         } else {
             setWalletConnect(false)

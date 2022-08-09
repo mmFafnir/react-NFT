@@ -891,10 +891,10 @@ template {
 }
 
 .header {
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0;. */
-  /* right: 0; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 2;
   width: 100%;
 }
@@ -1346,7 +1346,7 @@ template {
 
 @media (max-width: 574px) {
   .hero__bg{
-    z-index: 3;
+    /* z-index: ; */
   }
   .hero__subtitle {
     font-size: 14px;
@@ -4124,10 +4124,16 @@ template {
   left: 50%;
   object-fit: cover;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   width: 100%;
   transition-duration: 0.5s;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 500px) {
+  .main-bg{
+    transform: translate(-50%, -26%)
+  }
 }
 
 .main-bg.focus {

@@ -1,6 +1,6 @@
 
-
 import React, { useEffect, useState } from 'react';
+
 import Modal from './Modal';
 
 const NotifyWalletModal = ({  
@@ -9,15 +9,13 @@ const NotifyWalletModal = ({
     
     const [open, setOpen] = useState(false) 
 
-    const handlerOnClick = () => {
-    
+    const handlerOnClick = () => {    
         setOpenValues.forEach(callback => {
             callback(false)
         })
     }
 
     useEffect(() => {
-        console.log(openValues)
         if(openValues.find(item => item == true)) {
             setOpen(true)
         }
@@ -35,7 +33,7 @@ const NotifyWalletModal = ({
             onClick={()=> setOpen(false)} 
             className='btn btn--green'
             style={{transform: 'translateX(-50%)', left: '50%', marginTop: '20px'}}
-            >
+           >
             OK
           </button>
         </Modal>
