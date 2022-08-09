@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-NFT/static/css/main.46f69cd1.css",
-    "main.js": "/react-NFT/static/js/main.377dc78a.js",
+    "main.css": "/react-NFT/static/css/main.0a155455.css",
+    "main.js": "/react-NFT/static/js/main.99f80f50.js",
     "static/js/942.dafdf972.chunk.js": "/react-NFT/static/js/942.dafdf972.chunk.js",
     "static/js/563.ad1c2bc8.chunk.js": "/react-NFT/static/js/563.ad1c2bc8.chunk.js",
     "static/js/32.82bbdd8a.chunk.js": "/react-NFT/static/js/32.82bbdd8a.chunk.js",
@@ -33,14 +33,14 @@
     "static/media/wallet.svg": "/react-NFT/static/media/wallet.b2b255d1d514b9818ed5.svg",
     "static/media/table-arrow.svg": "/react-NFT/static/media/table-arrow.6b8872cfcec005ee18c3324275b97587.svg",
     "index.html": "/react-NFT/index.html",
-    "main.46f69cd1.css.map": "/react-NFT/static/css/main.46f69cd1.css.map",
-    "main.377dc78a.js.map": "/react-NFT/static/js/main.377dc78a.js.map",
+    "main.0a155455.css.map": "/react-NFT/static/css/main.0a155455.css.map",
+    "main.99f80f50.js.map": "/react-NFT/static/js/main.99f80f50.js.map",
     "32.82bbdd8a.chunk.js.map": "/react-NFT/static/js/32.82bbdd8a.chunk.js.map",
     "419.0d17c067.chunk.js.map": "/react-NFT/static/js/419.0d17c067.chunk.js.map",
     "163.c775e30e.chunk.js.map": "/react-NFT/static/js/163.c775e30e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46f69cd1.css",
-    "static/js/main.377dc78a.js"
+    "static/css/main.0a155455.css",
+    "static/js/main.99f80f50.js"
   ]
 }
